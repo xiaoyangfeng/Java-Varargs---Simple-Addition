@@ -14,21 +14,20 @@ There will be only four lines of output. Each line contains the sum of the integ
 
 Sample Input
 
-1
-2
-3
-4
-5
-6
+1  
+2  
+3  
+4  
+5  
+6  
 Sample Output
 
-1+2=3
-1+2+3=6
-1+2+3+4+5=15
-1+2+3+4+5+6=21
+1+2=3  
+1+2+3=6  
+1+2+3+4+5=15  
+1+2+3+4+5+6=21  
 
-
-
+```java
 class Add {
     public void add(int... intArray){
         int sum=0;
@@ -42,3 +41,4 @@ class Add {
         System.out.println(out);
     }
 }
+```
