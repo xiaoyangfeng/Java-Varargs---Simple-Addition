@@ -34,7 +34,7 @@ class Add {
         int sum=0;
         String output="";
         for (int i : intArray){
-            output+=i+"+";
+            output=i+"+";
             sum+=i;
         }
         String out=output.substring(0,output.length()-1);
